@@ -8,18 +8,18 @@ import torch
 import argparse
 import numpy as np
 import time
-import datetime
+#import datetime
 import queue
 import threading
 from collections import deque
-from tqdm import tqdm
-from lib.preprocess import h36m_coco_format, revise_kpts
-from lib.hrnet.gen_kpts import gen_video_kpts as hrnet_pose
+#from tqdm import tqdm
+#from lib.preprocess import h36m_coco_format, revise_kpts
+#from lib.hrnet.gen_kpts import gen_video_kpts as hrnet_pose
 import warnings
 import matplotlib
 import matplotlib.pyplot as plt 
-from mpl_toolkits.mplot3d import Axes3D
-import matplotlib.gridspec as gridspec
+#from mpl_toolkits.mplot3d import Axes3D
+#import matplotlib.gridspec as gridspec
 
 plt.switch_backend('agg')
 warnings.filterwarnings('ignore')
